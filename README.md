@@ -1,0 +1,3 @@
+This repository demonstrates a common mistake in Dockerfiles: using the `ubuntu:latest` image.  This can lead to build inconsistencies because the latest version of Ubuntu might change at any time, introducing breaking changes to your application's dependencies.
+
+The `Dockerfile` shows the insecure practice, while `Dockerfile_fixed` demonstrates the correct approach using a specific version of Ubuntu for reproducibility and security.
